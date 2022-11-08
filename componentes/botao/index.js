@@ -6,7 +6,7 @@ export default function Botao({
     manipularClique
 }) {
     return (
-        <button 
+        <button
             type={tipo}
             className={`btn ${cor}`}
             disabled={desabilitado}
